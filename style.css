@@ -15,10 +15,10 @@ html { box-sizing: border-box; }
 
 
 .jmeno {
-    font-size: 30px;
+    font-size: 25px;
     font-family: 'Montserrat', sans-serif;
     color: white;
-    padding: 20px;
+    padding: 10px 20px 5px 20px;
 }
 body {
     background-color: #bdc3c7;
@@ -31,7 +31,7 @@ body {
     font-family: 'Source Sans Pro', sans-serif;
     margin-left: 15px;
     margin-top: 30px;
-    box-shadow: grey 4px 6px 10px;;
+    box-shadow: grey 4px 6px 10px;
 }
 .foto {
     position: relative;
@@ -45,9 +45,9 @@ body {
     left: 200px;
 }
 p {
-    padding: 20px;
+    padding: 10px 20px 10px 20px;
 }
-/* Proč je od sebe tak daleho H1 a paragrafy?*/
+/* info pro mě: Proč je od sebe tak daleho H1 a paragrafy? Vyřešeno - padding v nadpisu a paragrafu*/
 
 .odkazy {
     margin: 0;
@@ -68,7 +68,7 @@ a {
 }
 .portfolio {
     text-align: center;
-    /* chtěla jsem namísto stylování .protfolio, .FB a .twitter nastylovat jen <a> a tomu dát text-align, ale nefunguje to.*/
+    /* info pro mě: chtěla jsem namísto stylování .prortfolio, .FB a .twitter nastylovat jen <a> a tomu dát text-align, ale nefunguje to. Vyřešeno: a je řádkový element.*/
     width: 100%;
     float: centre;
     border: 2px solid #3f464d;
@@ -81,13 +81,13 @@ a {
     text-align: center;
     width: 50%;
 }
-.portfolio a:hover {
+.portfolio:hover {
     background-color: #e74c3c;
 }
-.facebook a:hover {
+.facebook:hover {
     background-color: #3b5998;
 }
-.twitter a:hover {
+.twitter:hover {
     background-color: #1da1f2;
 }
-/* Neumím hover nastavit, aby obarvil celý rámeček a ne jen text. Myslela jsem, že to vyřeší display: inline-block. Ale vlastně s edosta motám, které vlastnosti mám dávat pod ul, které pod li, které pod a a které pdo odkazy.*/
+/* info pro mě: Neumím hover nastavit, aby obarvil celý rámeček a ne jen text. Myslela jsem, že to vyřeší display: inline-block. Ale vlastně se dost motám, které vlastnosti mám dávat pod ul, které pod li, které pod a a které pod odkazy. Vyřešeno, nesmí být nastaveno na a.*/
